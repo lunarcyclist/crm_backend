@@ -1,29 +1,51 @@
-# CRM
+Project Overview
+This project aims to develop a CRM (Customer Relationship Management) and Campaign Management Application. The primary goal is to enable seamless customer interaction tracking and efficient campaign handling within a single platform. The project involves backend implementation using Spring Boot and frontend development with React.
 
-Customer relationship management system.
-
-Technologies used in this project:
-  - Spring framework (Spring Boot)
-  - MySQL database
-  - Spring MVC
-  - Spring Data
-  - Spring Security
-
-Functionalities:
-1. Create and manage customers
-  - form used for creating/editing customers
-  - possibility to create customer based on the other
-2. Searching for customers
-  - custom searches based on various parameters
-3. Creating roles and access rights
-  - structure of rights: user, manager, owner, admin
-  - based on access rights chosen elements of application are shown
-  - special admin's section to edit access rights
-  - used spring security to achieve this
-4. Contracts generation
-  - create contracts
-5. Exporting data
-  - export files types: pdf, csv, xls
-  - possibility to add custom name to exported file
-6. API
-  - ability to get customers list through eg postman or curl
+Task Details
+Tasks Assigned
+Implement backend functionality for the CRM using Spring Boot.
+Develop the frontend using React.
+Create a landing page with:
+Project title: Xeno CRM
+Details of CRM and its benefits.
+Integrate a login page with Google-based authentication.
+Ensure the web application is intuitive and responsive.
+Work Completed
+Backend Development:
+Set up the Spring Boot project with required dependencies.
+Implemented core backend functionalities, including:
+Customer data management.
+Campaign tracking features.
+Configured database integration and basic REST APIs.
+Frontend Development:
+Designed the landing page titled Xeno CRM, showcasing:
+Overview of CRM benefits (e.g., improved customer interaction, better campaign management).
+Created the login page with form inputs for username and password.
+Integration:
+Established a connection between backend REST APIs and frontend components.
+Work Pending
+Google-Based Authentication:
+Integration with Google OAuth 2.0 is partially complete. Currently facing issues with token validation and redirect URIs.
+Advanced Campaign Analytics:
+Detailed analytics for campaigns have not been implemented yet due to time constraints.
+Frontend Design Enhancements:
+The UI needs further refinement to align with modern design standards and improve responsiveness.
+Future Scope
+Enhanced Features:
+Add advanced customer segmentation tools to improve CRM capabilities.
+Implement real-time campaign performance dashboards.
+Scalability:
+Optimize the backend to handle large datasets and high traffic.
+Cross-Platform Availability:
+Extend the application to mobile platforms for better accessibility.
+AI Integration:
+Incorporate AI-based insights to recommend optimal campaign strategies and predict customer behavior.
+Challenges Faced
+Google Authentication:
+Understanding OAuth 2.0 workflow and integrating it with the existing architecture.
+Time Constraints:
+Limited time for frontend development led to basic designs without advanced animations or styles.
+API Testing:
+Encountered bugs while testing REST APIs, especially with error handling.
+Conclusion
+This project laid a solid foundation for a fully functional CRM and campaign management tool. Although some features are incomplete, the groundwork is ready for further development and scalability.
