@@ -1,0 +1,70 @@
+/* LoginPage.css */
+
+/* General Page Styling */
+.login-page {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f4f4f4, #e6e6e6);
+    color: #333;
+  }
+  
+  .login-container {
+    text-align: center;
+    background: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Title Styling */
+  .login-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  /* Text Styling */
+  .login-text {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  /* Button Styling */
+  .login-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Help Text */
+  .help-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .help-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .help-text a:hover {
+    text-decoration: underline;
+  }
+  
